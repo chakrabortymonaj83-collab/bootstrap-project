@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Top section */
+.top-section {
+            background-color: #1a1a1a; 
+            padding: 10px 0;
+            font-size: 13px;
+        }
+        .top-section a {
+            color: #ffffff; 
+            text-decoration: none; 
+            
+        }
+        .top-section a:hover {
+            color: #fdf909; 
+        }
+        .follow-us-text {
+            margin-right: 15px;
+        }
+        .social-icons a {
+            
+            margin-right: 10px; 
+        }
+    .contact-info a {
+    margin-left: 25px; 
+}
+
+.contact-info i {
+    margin-right: 6px; 
+}
+/* navber  */
+.header-icons {
+    padding: 0 30px;
+    border-left: 1px solid #eee;
+}
+.header-icons{
+    border-left: 1px solid #eee;   
+}
+.tell-me-more {
+    background-color: #f5e133;
+}
+
+/* Hero Section Background */
+.hero-section {
+    /* url-এর ভেতর তোমার পাহাড় বা বরফের ইমেজের লিংক দাও */
+    background-image: url('image/hero\ image.jpg'); 
+    
+    background-size: cover; /* ইমেজটা যেন স্ক্রিন অনুযায়ী পারফেক্টলি ফিট হয় */
+    background-position: center; /* ইমেজের মূল অংশটা যেন মাঝখানে থাকে */
+    background-repeat: no-repeat; /* ইমেজ যেন বারবার রিপিট না হয় */
+    
+    /* স্ক্রিনের কতটা জায়গা নেবে সেটা নির্ধারণ করা (vh মানে viewport height) */
+    min-height: 80vh; 
+    
+    position: relative;
+}

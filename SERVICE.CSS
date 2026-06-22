@@ -1,0 +1,9 @@
+.about-hero-section {
+    background-image: url('image/service heroimg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

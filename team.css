@@ -1,0 +1,12 @@
+.about-hero-section {
+    background-image: url('image/our team.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.awesome-guides-section {
+    background-color: #111111; /* একদম গাঢ় কালো/গ্রে রঙ */
+}

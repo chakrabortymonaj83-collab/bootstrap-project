@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Top section */
+.top-section {
+            background-color: #1a1a1a; 
+            padding: 10px 0;
+            font-size: 13px;
+            transition: all 0.3s ease;
+        }
+        .top-section:hover {
+            background-color: #2a2a2a;
+        }
+        .top-section a {
+            color: #ffffff; 
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .top-section a:hover {
+            color: #fdf909;
+            text-shadow: 0 0 10px rgba(253, 249, 9, 0.5);
+        }
+        .follow-us-text {
+            margin-right: 15px;
+            transition: all 0.3s ease;
+        }
+        .follow-us-text:hover {
+            color: #fdf909;
+            text-shadow: 0 0 10px rgba(253, 249, 9, 0.5);
+        }
+        .social-icons a {
+            margin-right: 10px;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #fdf909;
+        }
+    .contact-info a {
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+    .contact-info a:hover {
+        color: #fdf909 ;
+    }
+
+.contact-info i {
+    margin-right: 6px; 
+}
+/* navber  */
+.navbar-nav .nav-link {
+    transition: background-color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    background-color: #f5e133;
+    color: #000;
+}
+
+.header-icons {
+    padding: 0 30px;
+    border-left: 1px solid #eee;
+}
+.header-icons a {
+    transition: all 0.3s ease;
+}
+.header-icons a:hover {
+    color: #f5e133 ;
+    transform: scale(1.2);
+}
+.header-icons{
+    border-left: 1px solid #eee;   
+}
+.tell-me-more {
+    background-color: #f5e133;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.tell-me-more:hover {
+    background-color: #ffd700;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(245, 225, 51, 0.4);
+}
+/* hero section */
+.about-hero-section {
+    background-image: url('image/about heroimg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* footer section */
+.copyright-section .text-muted a:hover span {
+    color: #f5e133 !important;
+}
